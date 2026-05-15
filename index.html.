@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Vimal Bio</title>
+
+<style>
+body{
+    margin:0;
+    padding:0;
+    background:#0f0f0f;
+    font-family:Arial;
+    color:white;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+}
+
+.card{
+    background:#1c1c1c;
+    padding:30px;
+    border-radius:20px;
+    text-align:center;
+    width:300px;
+    box-shadow:0 0 20px cyan;
+}
+
+img{
+    width:120px;
+    height:120px;
+    border-radius:50%;
+    border:3px solid cyan;
+}
+
+h1{
+    margin:15px 0 5px;
+}
+
+p{
+    color:#ccc;
+}
+
+button{
+    padding:10px 20px;
+    border:none;
+    border-radius:10px;
+    background:cyan;
+    cursor:pointer;
+    font-weight:bold;
+}
+</style>
+</head>
+
+<body>
+
+<div class="card">
+    <img src="https://i.ibb.co/JjYW6FD6/your-image.jpg" alt="My Photo" width="200">
+
+    <h1>Vimal</h1>
+
+    <p>Student | Editor | Creative Mind 😼</p>
+
+    <button onclick="window.location.href='https://instagram.com/vimxl_.exe?igsh=MXc3eWdkaHh6aXl4bQ=='">
+        Follow Me
+    </button>
+</div>
+
+</body>
+</html>
